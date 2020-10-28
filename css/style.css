@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 16px 0;
-  background: #0A6EFF;
+  background: #213b52;
 }
 
 #header .logo h1 {
@@ -129,19 +129,46 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-.nav-menu .get-started a {
-  background: #0A6EFF;
+.nav-menu .get-started1 a {
+  background: #CD3861;
   color: #fff;
-  border-radius: 50px;
+  border-radius: 100px;
   margin: 2px 0 0 15px;
-  padding: 4px 25px 6px 25px;
-  border: 2px solid #fdc134;
+  padding: 20px 50px 20px 50px;
+  border: px solid #F9FFFF;
+   
+}
+
+.nav-menu .get-started2 a {
+  background: #6A5ACD;
+  color: #fff;
+  border-radius: 100px;
+  margin: 2px 0 0 15px;
+  padding: 20px 50px 20px 50px;
+  border: px solid #F9FFFF;
+   
 }
 
 .nav-menu .get-started a:hover {
   background: #fdc134;
   color: #213b52;
 }
+
+.nav-menu .get-started a {
+  background: #213b52;
+  color: #fff;
+  border-radius: 100px;
+  margin: 2px 0 0 15px;
+  padding: 4px 25px 6px 25px;
+  border: 2px solid #fdc134;
+   
+}
+
+.nav-menu .get-started a:hover {
+  background: #fdc134;
+  color: #213b52;
+}
+
 
 .nav-menu .drop-down ul {
   display: block;
@@ -316,6 +343,20 @@ h1, h2, h3, h4, h5, h6 {
   color: #213b52;
 }
 
+.mobile-nav .get-started1 a {
+  background: #213b52;
+  color: #fff;
+  border-radius: 50px;
+  margin: 15px;
+  padding: 8px 25px 10px 25px;
+  text-align: center;
+}
+
+.mobile-nav .get-started1 a:hover {
+  background: #fdc134;
+  color: #213b52;
+}
+
 .mobile-nav-overly {
   width: 100%;
   height: 100%;
@@ -348,7 +389,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   padding: 0 0 0 0;
-  background: #0A6EFF;
+  background: #213b52;
   background: linear-gradient(180deg, #213b52 0%, #213c54 %, #204564 %);
 }
 
@@ -364,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 #hero .btn-get-started {
@@ -474,7 +515,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding: 0;
+  padding: 0; 
 }
 
 .clients .client-logo {
@@ -486,7 +527,7 @@ section {
 }
 
 .clients .client-logo img {
-  height: 70px;
+  height: 80px;
 }
 
 .clients .client-logo:hover img {
