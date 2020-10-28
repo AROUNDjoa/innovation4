@@ -129,31 +129,6 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-.nav-menu .get-started1 a {
-  background: #CD3861;
-  color: #fff;
-  border-radius: 100px;
-  margin: 2px 0 0 15px;
-  padding: 20px 50px 20px 50px;
-  border: px solid #F9FFFF;
-   
-}
-
-.nav-menu .get-started2 a {
-  background: #6A5ACD;
-  color: #fff;
-  border-radius: 100px;
-  margin: 2px 0 0 15px;
-  padding: 20px 50px 20px 50px;
-  border: px solid #F9FFFF;
-   
-}
-
-.nav-menu .get-started a:hover {
-  background: #fdc134;
-  color: #213b52;
-}
-
 .nav-menu .get-started a {
   background: #213b52;
   color: #fff;
@@ -165,6 +140,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .get-started a:hover {
+  background: #fdc134;
+  color: #213b52;
+}
+
+.nav-menu .get-started1 a {
+  background: #CD3861;
+  color: #fff;
+  border-radius: 100px;
+  margin: 2px 0 0 15px;
+  padding: 20px 50px 20px 50px;
+  border: px solid #F9FFFF;
+}
+
+.nav-menu .get-started1 a:hover {
+  background: #fdc134;
+  color: #213b52;
+}
+
+
+.nav-menu .get-started2 a {
+  background: #6A5ACD;
+  color: #fff;
+  border-radius: 100px;
+  margin: 2px 0 0 15px;
+  padding: 20px 50px 20px 50px;
+  border: px solid #F9FFFF;
+   
+}
+
+.nav-menu .get-started2 a:hover {
   background: #fdc134;
   color: #213b52;
 }
